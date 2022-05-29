@@ -143,5 +143,17 @@ This library involves the use of user's playlist and songs that they like to pro
  - A tf-idf vectoriser is text frequency inverse document frequency vectoriser that generates featureset values according to the repetition of words in a fiven data-set
  - The more a word is repeated in a document, the lesser weight it holds
  - Using this suitable weights can be put into a genre of music that can be inturn used to create a dataset like this:
- 
+ <br/>
+ <br/>
+ <img src="readmeimages/featureset.png" width="50%">
+ - Using this a vector can be generated for one song or be clubbed together for more than one song to compare with.
+ - This comparision yields the songs required 
+ - The project includes the trained model and the cleaned up dataset for the final readings
+
+# Recommendation generation
+ - The featureset is generated and a similar featureset is also generated for the songs in question. These featuresets are then converted into vectors by summing each individual properties
+ - We then use cosine similarity to get how much two vectors are alike and thus generate a similarity rating of songs to provide recommendation. 
+ - This dataset includes songs from the top 250 artists of past decade 
+ - Number of songs are in excess of 30000
+
   
