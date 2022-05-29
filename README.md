@@ -1,7 +1,5 @@
 # MyMusic App
 
-<img src="readmeimages/mymusic.png" width="50%">
-
 ## Description
 
 This project involves the use of TF-IDF vectoriser in python to create recommendations based on your favourite songs and Then uses Spotipy to integrate users. For the purpose of this project this accesses my playlists and recent songs
@@ -66,3 +64,65 @@ Replacing the previously deleted files with the newly downloaded ones
 <br/>
 <br/>
 <img src="readmeimages/pic8.png" width="50%">
+
+## STEP 4: Adding the venv and setting up the frontend and backend
+1. In the powershell terminal move to engage-project
+    <br/>
+    <br/>
+    - pip install virtualenv 
+    - virtualenv env
+    - .\env\Scripts\activate.ps1
+    
+    <br />
+    <img src="readmeimages/carbon.png" width="50%">
+    <br/>
+2. Install flask in the virtual environment
+   <br/>
+   <br />
+   - pip install flask
+   <br />
+   <img src="readmeimages/flaskinstall.png" width="50%">
+   <br />
+3. Configuring the react
+   <br />
+   <br />
+   - cd mymusic
+   - npm install
+   <br />
+   <img src="readmeimages/npm.png" width="50%">
+   <br/>
+4. Moving back into the directory to run these pip commands
+    <br />
+    <br />
+    - cd ..
+    - pip install spotipy
+    - pip install flask-cors
+    - pip install pandas
+    - pip install python-dotenv
+    - pip install scikit-learn
+    - pip install matplotlib
+    <br />
+    <br />
+    <img src="readmeimages/npm.png" width="50%">
+    <br />
+   
+5. Running flask to run the backend
+    <br />
+    <br />
+    - flask run
+    <br/>
+    <br />
+    <img src="readmeimages/flaskrun.png" width="50%">
+    <br />
+   
+6. Start the react server
+    <br />
+    <br />
+    - cd mymusic
+    - npm start
+    <br />
+    <br />
+    <img src="readmeimages/npmstart.png" width="50%">
+    <br />
+    
+7. The page should load on localhost:3000 and the backend on localhost:5000
