@@ -1,3 +1,9 @@
+.loader
+{
+    position: relative;
+    z-index: -1;
+}
+
 .linker
 {
     display:grid;

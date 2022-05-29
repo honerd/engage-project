@@ -10,11 +10,10 @@ import {
 import Recommendationengine from './recomendationengine';
 function Mainpart() {
 
-
-
-  
-
-
+  useEffect(() => {
+    fetch('/login').then(res => res.json()).then(data => {
+    })
+  },[])
 
   return (
     <div className="mainpart">

@@ -69,9 +69,12 @@ function Playlistinnerslides(props) {
             <div className="song_duration">{time}</div>
             </Link>:<div></div>
         }
+        <div className="loader">
         {
           loading?<BeatLoader color={"#2364a4"} />:<div></div>
         }
+        </div>
+        
       </>
   )
 }
