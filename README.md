@@ -126,3 +126,22 @@ Replacing the previously deleted files with the newly downloaded ones
     <br />
     
 7. The page should load on localhost:3000 and the backend on localhost:5000
+
+# Spotipy Integration
+
+The project involves integration with the spotify API to fetch user libraries and songs and intergration with the spotipy library for python.
+<br />
+This library involves the use of user's playlist and songs that they like to produce recommendations and at the same time play songs in the real time. To play songs in the real time react-spotify-web-playback is used. Spotipy generates the access_token in a python environment thus rendering easy for flask development.
+<br/>
+
+### NOTE: for the purpose of this project, I have added my client id and secret rather than putting the .env file in .gitignore
+
+#Recommendation Engine
+
+# TD-IDF Vectoriser
+
+ - A tf-idf vectoriser is text frequency inverse document frequency vectoriser that generates featureset values according to the repetition of words in a fiven data-set
+ - The more a word is repeated in a document, the lesser weight it holds
+ - Using this suitable weights can be put into a genre of music that can be inturn used to create a dataset like this:
+ 
+  
