@@ -125,7 +125,7 @@ Replacing the previously deleted files with the newly downloaded ones
     <img src="readmeimages/npmstart.png" width="50%">
     <br />
     
-7. The page should load on localhost:3000 and the backend on localhost:5000
+7. The page should load on localhost:3000 and the backend on localhost:5000. Refresh once if doesn't work
 
 # Spotipy Integration
 
