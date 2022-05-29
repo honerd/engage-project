@@ -1,0 +1,43 @@
+
+.top
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    background-color: var(--green);
+    position: sticky;
+    top: 0; 
+}
+.img
+{
+    border:2px solid black;
+    border-radius: 50%;
+    height:7vh;
+    width:7vh;
+    background-color: var(--dark-blue);
+    margin:10px;
+}
+.title
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+}
+.title_part1
+{
+    color:var(--blue);
+    font-weight: 800;
+    font-size: 5vh;
+    font-family: 'Righteous', cursive;
+}
+.title_part2
+{
+    color:var(--grey);
+    font-weight: 800;
+    font-size: 5vh;
+    font-family: 'Righteous', cursive;
+}

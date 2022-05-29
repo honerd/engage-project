@@ -1,0 +1,47 @@
+:root {
+    --black: #1a1a1d;
+    --grey: #4e4e50;
+    --blue: #2364a4;
+    --dark-blue: #105c9a;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*
+{
+  margin:0;
+  padding:0;
+}
+
+
+
+.app::before
+{
+  background: black no-repeat center center/cover;
+  content:" ";
+  position: fixed;
+  z-index: -1;
+  width:  100%;
+  height: 100%;
+}
+
+*::-webkit-scrollbar{
+  width:1vh;
+  height:1vh;
+  margin-bottom: 10px;
+}
+
+*::-webkit-scrollbar-track{
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb{
+  background: var(--blue);
+  opacity: 30%;
+  border-radius: 100vh;
+      
+}
+
+.app
+{
+  display:flex;
+  box-sizing: border-box;
+}

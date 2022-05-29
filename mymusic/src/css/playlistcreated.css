@@ -1,0 +1,20 @@
+
+
+.playlist-title
+{
+    box-sizing: border-box;
+    display:flex;
+    height:4vh;
+    font-family: 'Righteous', cursive;
+    font-weight: 600;
+    color: var(--grey);
+    margin-left:2vh;
+    justify-content: start;
+    align-items: center;
+    
+}
+.playlist-title:hover
+{
+    color: white;
+}
+

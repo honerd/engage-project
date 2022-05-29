@@ -1,0 +1,109 @@
+
+
+.playlist_details
+{
+    margin-top:5vh;
+    display:flex;
+    flex-direction: row;
+    height: 40vh;
+    border: 2px solid #12345695;
+    align-items: flex-end;
+    margin-left:2vh;
+    margin-right: 2vh;
+    background-color:#1a1a1d;
+    position: sticky;
+    top:0;
+}
+
+.playlist_img
+{
+    height:10vh;
+    width:10vh;
+    border-radius: 50%;
+    border:2px solid blue;
+    margin: 3vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.playlist_img img
+{
+    height:100%;
+    width:100%;
+
+}
+
+.playlist_title
+{
+    display:flex;
+    margin-bottom:6vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.pt1
+{
+    font-family: 'Righteous', cursive;
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: var(--grey);
+}
+
+.pt2
+{
+    font-family: 'Righteous', cursive;
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 3vh;
+    color: var(--blue);
+}
+
+.song_count
+{
+    display: flex;
+    /* border:2px solid red; */
+    margin-bottom:6vh;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 3vh;
+    margin-left:auto;
+    justify-self: right;
+    margin-right:3vh;
+}
+
+.sc1
+{
+    color: var(--grey);
+}
+
+.sc2
+{
+    color: var(--blue);
+}
+
+.playlist_desc
+{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top:2vh;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    margin-right: 2vw;
+    font-weight: 400;
+    font-size: 3vh;
+    color: var(--blue);
+    padding:10px;
+}
+
+.playlist_attr
+{
+    display:grid;
+    column-gap: 2vh;
+    grid-template-columns: 1fr 4fr 2fr 1fr;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
